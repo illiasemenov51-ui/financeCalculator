@@ -1,0 +1,19 @@
+services:
+  tax-calculator:
+    build: .
+    image: poland-tax-calculator:latest
+    container_name: tax-calculator
+
+    # Required for interactive terminal input (Scanner)
+    stdin_open: true
+    tty: true
+
+    volumes:
+      # Persist SQLite database and log file between restarts
+      - tax-data:/app/data
+
+    restart: "no"
+
+volumes:
+  tax-data:
+    driver: local
