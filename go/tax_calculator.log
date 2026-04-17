@@ -1,0 +1,27 @@
+[2026-04-17 21:18:15] [INFO ] === Poland Tax Calculator started ===
+[2026-04-17 21:18:15] [ERROR] Database init failed | org.sqlite.JDBC
+[2026-04-17 21:18:33] [INFO ] === Poland Tax Calculator started ===
+[2026-04-17 21:18:33] [ERROR] Database init failed | org.sqlite.JDBC
+[2026-04-17 21:23:49] [INFO ] === Poland Tax Calculator started ===
+[2026-04-17 21:25:20] [INFO ] === Poland Tax Calculator started ===
+[2026-04-17 21:25:45] [INFO ] === Poland Tax Calculator started ===
+[2026-04-17 21:26:25] [INFO ] === Poland Tax Calculator started ===
+[2026-04-17 21:27:26] [INFO ] === Poland Tax Calculator started ===
+[2026-04-17 21:27:52] [INFO ] === Poland Tax Calculator started ===
+[2026-04-17 21:27:55] [INFO ] Database connected: jdbc:sqlite:tax_calculator.db
+[2026-04-17 21:27:55] [INFO ] Tables initialized
+[2026-04-17 21:28:10] [WARN ] Login attempt for non-existent user: login
+[2026-04-17 21:29:02] [INFO ] New user registered: login
+[2026-04-17 21:29:02] [AUDIT] [login] Registration successful, taxType=skala
+[2026-04-17 21:29:05] [INFO ] Menu choice: '1' by login
+[2026-04-17 21:29:27] [AUDIT] [user#1] Income added: 12000.0 PLN
+[2026-04-17 21:29:27] [AUDIT] [login] Income added: 12000.0 PLN, category=zlecenie
+[2026-04-17 21:29:35] [INFO ] Menu choice: '2' by login
+[2026-04-17 21:29:37] [INFO ] Menu choice: '2' by login
+[2026-04-17 21:29:38] [INFO ] Menu choice: '2' by login
+[2026-04-17 21:29:42] [INFO ] Menu choice: '2' by login
+[2026-04-17 21:29:49] [INFO ] Menu choice: '2' by login
+[2026-04-17 21:29:49] [INFO ] Menu choice: '' by login
+[2026-04-17 21:29:51] [INFO ] Menu choice: '3' by login
+[2026-04-17 21:30:06] [INFO ] Menu choice: '2' by login
+[2026-04-17 21:39:56] [INFO ] Menu choice: '2' by login
